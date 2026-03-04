@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "usuario": "Guardar",
+        "accion": "GUARDADO_ADMIN",
+        "descripcion": "Se realizo la creacion de un administrador de forma predeterminada",
+        "fecha": "2026-02-27 21:56:50.954463"
+    },
+    {
+        "id": 2,
+        "usuario": "Acceso no valido",
+        "accion": "ACCESO_DENEGADO",
+        "descripcion": "Se intento de manera fallida el ingreso como administrador",
+        "fecha": "2026-02-27 21:57:19.029514"
+    },
+    {
+        "id": 3,
+        "usuario": "Guardado",
+        "accion": "GUARDADO_HERRAMIENTA",
+        "descripcion": "Se realizo la creacion de una herramienta",
+        "fecha": "2026-02-27 21:58:58.434277"
+    },
+    {
+        "id": 4,
+        "usuario": "Guardado",
+        "accion": "GUARDADO_USUARIO",
+        "descripcion": "Se realizo la creacion de un usuario",
+        "fecha": "2026-02-27 22:00:04.586141"
+    },
+    {
+        "id": 5,
+        "usuario": "Consulta",
+        "accion": "CONSULTAR_STOCK_BAJO",
+        "descripcion": "Se consulto sobre las herramientas con menos stock",
+        "fecha": "2026-02-27 22:01:07.493690"
+    },
+    {
+        "id": 6,
+        "usuario": "Listar prestamos inexistentes",
+        "accion": "LISTAR_FALLIDO",
+        "descripcion": "Se intento listar los prestamos que no existen",
+        "fecha": "2026-02-27 22:01:17.451799"
+    },
+    {
+        "id": 7,
+        "usuario": "Prestamo inexistente",
+        "accion": "PRESTAMO_NO_VALIDO",
+        "descripcion": "Se intento ingresear devolver un prestamo que no existe",
+        "fecha": "2026-02-27 22:01:20.010632"
+    },
+    {
+        "id": 8,
+        "usuario": "Guardado",
+        "accion": "GUARDAR_SOLICITUD_PRESTAMO",
+        "descripcion": "Se realizo la creacion de una solicitud de prestamo para ser revisada por un admin",
+        "fecha": "2026-02-27 22:02:25.625793"
+    },
+    {
+        "id": 9,
+        "usuario": "Devolucion",
+        "accion": "DEVOLUCION_PRESTAMO",
+        "descripcion": "Se realizo la devolucion de una herramienta prestada",
+        "fecha": "2026-02-27 22:06:01.229385"
+    },
+    {
+        "id": 10,
+        "usuario": "Consulta",
+        "accion": "CONSULTAR_PRESTAMOS_FRECUENTES",
+        "descripcion": "Se consulto sobre la cantidad de prestamos de las herramientas",
+        "fecha": "2026-02-27 22:06:07.260365"
+    },
+    {
+        "id": 11,
+        "usuario": "Consulta",
+        "accion": "CONSULTAR_STOCK_BAJO",
+        "descripcion": "Se consulto sobre las herramientas con menos stock",
+        "fecha": "2026-02-27 22:06:10.414016"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "nombre": "martillo",
+        "estado de la herramienta": "Buen estado",
+        "categoria": "Carpiniteria",
+        "stock": 20,
+        "estado": "mal estado"
+    }
+]

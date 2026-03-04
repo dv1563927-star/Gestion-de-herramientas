@@ -1,0 +1,19 @@
+[
+    {
+        "id": 0,
+        "nombre": "Admin",
+        "apellido": "Principal",
+        "telefono": "0000000000",
+        "direccion": "Oficina Junta",
+        "tipo": "administrador",
+        "clave": 1234
+    },
+    {
+        "id": 1,
+        "nombre": "Jose",
+        "apellido": "Araque",
+        "telefono": "123456",
+        "direccion": "calle 2",
+        "tipo de usuario": "usuario"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "id_usuario": 1,
+        "id_herramienta": 1,
+        "cantidad": 0,
+        "fecha_inicio": "2026-02-27T22:02:25.617048",
+        "fecha_fin": "2033-06-12T22:02:25.617048",
+        "estado": "devuelto",
+        "reporte": [
+            "Los 7 martillos eran de mala calidad y se da\u00f1aron al momento de usarlos, porfavor cambiar o mejorar la calidad de las herramientas"
+        ]
+    }
+]
