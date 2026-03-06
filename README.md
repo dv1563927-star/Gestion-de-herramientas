@@ -20,5 +20,50 @@ El programa cuenta con las siguientes funciones
 ## Estructura de la aplicacion
 
 ```
-
+GestionH_ACA/
+│
+├── main.py                  # Punto de entrada del programa
+├── README.md                # Este archivo
+│
+├── modulos/
+│   ├── gestionarHerramientas.py      # Gestión de herramientas
+│   ├── gestionarUsuarios.py          # Gestión de usuarios
+│   ├── gestionarPrestamos.py         # Gestión de préstamos
+│   └── logs.py                       # Registro de eventos
+│
+├── datos/
+│   ├── herramientas.json    # Persistencia de herramientas
+│   ├── usuarios.json        # Persistencia de usuarios
+│   └── prestamos.json       # Persistencia de préstamos
+│
+├── logs/
+    └── logs.json          # Registro de eventos del sistema
 ```
+---
+## Requisitos ⚙️
+- Python 3.8 o superior
+- No requiere librerias externas (Solo modulos estandar de Python)
+
+---
+
+## 🔐 Permisos y Roles
+
+| Acción | Administrador | Residente |
+|--------|:---:|:---:|
+| Registrar usuarios | ✅ | ❌ |
+| Registrar herramientas | ✅ | ❌ |
+| Aprobar solicitudes | ✅ | ❌ |
+| Consultar inventario | ✅ | ✅ |
+| Ver disponibilidad | ✅ | ✅ |
+| Crear solicitud de préstamo | ✅ | ✅ |
+| Ver historial propio | ✅ | ✅ |
+
+---
+
+## 👥 Autores
+
+Desarrollado como proyecto académico para la gestión comunitaria de recursos compartidos.
+
+---
+
+> 💡 **Nota:** Este sistema está diseñado para ejecutarse en consola. Toda interacción se realiza mediante menús de texto numerados.
